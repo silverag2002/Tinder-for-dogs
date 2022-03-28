@@ -1,0 +1,170 @@
+
+body{
+font-family:'Montserrat', sans-serif;
+  }
+  #title
+{
+  background-color: #ff4c68;
+   color: white;
+   /* position:absolute; */
+}
+h1,h2
+{  font-family:'Montserrat', sans-serif;
+   font-size: 3.5rem;
+    line-height: 1.5;
+     font-weight: 700;
+
+   }
+.container-fluid{
+  padding:3% 15%;
+}
+.navbar{
+  padding-bottom: 4.5rem
+}
+.iphone{
+  transform: rotate(25deg);
+  /* width:60%;
+  margin-left: 20%;
+  margin-top: 0%; */
+position:absolute;
+
+}
+.tindogspace{
+  margin: 20px;
+}
+.tindogs{
+  margin: 5% 3%;
+  margin-left:0;
+  /* margin-bottom: 20%; */
+}
+.tinspacing{
+  margin-bottom: 10% ;
+}
+.navbar-brand{
+  font-family: 'Ubuntu',sans-serif;
+  font-size:2.5rem;
+  font-weight: 700;
+
+}
+col{
+  position:relative;
+}
+/* #zcoordinate{
+  background-color:white;
+  position: absolute;
+  z=1;
+  top:80%;
+} */
+#features2{
+  padding: 10%;
+  background-color:white;
+  position: relative;
+  z-index: 1;
+}
+.addcolour{
+  color:#ef8172;
+  font-size: 4rem;
+  margin-top: 25%;
+  margin-bottom: 4%;
+}
+.features{
+font-weight:700;
+  font-size: 1.5rem;
+}
+.features1
+{
+  color:#8f8f8f;
+  width:50%;
+}
+i:hover{
+  color:#ff4c68;
+}
+
+
+
+#testimonials{
+  text-align: center;
+background-color: #ef8172;
+color:white;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 5vw;
+  height: 5vw;
+}
+
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 20%;
+  margin:20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+@media (max-width:1000px)
+{
+  .iphone{
+position: static;
+    width:60%;
+    margin-left: 20%;
+    margin-top: 10%;
+
+transform: rotate(0deg);
+  }
+  #features2{
+    padding: 10%;
+
+
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+
+
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding:10%;
+
+}
+.callto{
+  font-family:'Montserrat', sans-serif;
+     font-size: 3.5rem;
+      line-height: 1.5;
+       font-weight: 900;
+       color:white;
+
+
+}
+
+
+
+#footer{
+  background-color: #fff;
+  text-align:center;
+  color:grey;
+  margin:10%;
+
+}
+.adj{
+  padding:1%;
+  color:black;
+}
+aa:hover{
+  color:blue;
+}
